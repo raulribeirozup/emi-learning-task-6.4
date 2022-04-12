@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "58E02E9C280443D800CAA3FA"
-               BuildableName = "LearningTask-6.5.app"
+               BuildableName = "LearningTask-6.4.app"
                BlueprintName = "LearningTask-6.4"
                ReferencedContainer = "container:LearningTask-6.4.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "58E02E9C280443D800CAA3FA"
-            BuildableName = "LearningTask-6.5.app"
+            BuildableName = "LearningTask-6.4.app"
             BlueprintName = "LearningTask-6.4"
             ReferencedContainer = "container:LearningTask-6.4.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "58E02E9C280443D800CAA3FA"
-            BuildableName = "LearningTask-6.5.app"
+            BuildableName = "LearningTask-6.4.app"
             BlueprintName = "LearningTask-6.4"
             ReferencedContainer = "container:LearningTask-6.4.xcodeproj">
          </BuildableReference>
