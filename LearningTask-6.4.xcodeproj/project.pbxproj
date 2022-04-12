@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		587E8C8228046400002FD712 /* PokemonViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587E8C8128046400002FD712 /* PokemonViewCell.swift */; };
+		587E8C84280464C4002FD712 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587E8C83280464C4002FD712 /* Pokemon.swift */; };
+		587E8C8728046BA1002FD712 /* PokemonStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587E8C8628046BA1002FD712 /* PokemonStore.swift */; };
+		587E8C8928047D0D002FD712 /* PokemonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587E8C8828047D0D002FD712 /* PokemonsViewController.swift */; };
+		587E8C8B280490E7002FD712 /* TipoDePokemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587E8C8A280490E7002FD712 /* TipoDePokemonView.swift */; };
+		587E8C8D2805C41B002FD712 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587E8C8C2805C41B002FD712 /* HeaderView.swift */; };
 		58E02EA1280443D800CAA3FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E02EA0280443D800CAA3FA /* AppDelegate.swift */; };
 		58E02EA3280443D800CAA3FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E02EA2280443D800CAA3FA /* SceneDelegate.swift */; };
-		58E02EA5280443D800CAA3FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E02EA4280443D800CAA3FA /* ViewController.swift */; };
 		58E02EA8280443D800CAA3FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E02EA6280443D800CAA3FA /* Main.storyboard */; };
 		58E02EAA280443DA00CAA3FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58E02EA9280443DA00CAA3FA /* Assets.xcassets */; };
 		58E02EAD280443DA00CAA3FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E02EAB280443DA00CAA3FA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		58E02E9D280443D800CAA3FA /* LearningTask-6.5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LearningTask-6.5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		587E8C8128046400002FD712 /* PokemonViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewCell.swift; sourceTree = "<group>"; };
+		587E8C83280464C4002FD712 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		587E8C8628046BA1002FD712 /* PokemonStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonStore.swift; sourceTree = "<group>"; };
+		587E8C8828047D0D002FD712 /* PokemonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonsViewController.swift; sourceTree = "<group>"; };
+		587E8C8A280490E7002FD712 /* TipoDePokemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipoDePokemonView.swift; sourceTree = "<group>"; };
+		587E8C8C2805C41B002FD712 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		58E02E9D280443D800CAA3FA /* LearningTask-6.4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LearningTask-6.4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E02EA0280443D800CAA3FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58E02EA2280443D800CAA3FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		58E02EA4280443D800CAA3FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		58E02EA7280443D800CAA3FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58E02EA9280443DA00CAA3FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58E02EAC280443DA00CAA3FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,7 +50,7 @@
 		58E02E94280443D800CAA3FA = {
 			isa = PBXGroup;
 			children = (
-				58E02E9F280443D800CAA3FA /* LearningTask-6.5 */,
+				58E02E9F280443D800CAA3FA /* LearningTask-6.4 */,
 				58E02E9E280443D800CAA3FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +58,36 @@
 		58E02E9E280443D800CAA3FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				58E02E9D280443D800CAA3FA /* LearningTask-6.5.app */,
+				58E02E9D280443D800CAA3FA /* LearningTask-6.4.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		58E02E9F280443D800CAA3FA /* LearningTask-6.5 */ = {
+		58E02E9F280443D800CAA3FA /* LearningTask-6.4 */ = {
 			isa = PBXGroup;
 			children = (
 				58E02EA0280443D800CAA3FA /* AppDelegate.swift */,
 				58E02EA2280443D800CAA3FA /* SceneDelegate.swift */,
-				58E02EA4280443D800CAA3FA /* ViewController.swift */,
 				58E02EA6280443D800CAA3FA /* Main.storyboard */,
 				58E02EA9280443DA00CAA3FA /* Assets.xcassets */,
 				58E02EAB280443DA00CAA3FA /* LaunchScreen.storyboard */,
 				58E02EAE280443DA00CAA3FA /* Info.plist */,
+				587E8C8128046400002FD712 /* PokemonViewCell.swift */,
+				587E8C83280464C4002FD712 /* Pokemon.swift */,
+				587E8C8628046BA1002FD712 /* PokemonStore.swift */,
+				587E8C8828047D0D002FD712 /* PokemonsViewController.swift */,
+				587E8C8A280490E7002FD712 /* TipoDePokemonView.swift */,
+				587E8C8C2805C41B002FD712 /* HeaderView.swift */,
 			);
-			path = "LearningTask-6.5";
+			path = "LearningTask-6.4";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58E02E9C280443D800CAA3FA /* LearningTask-6.5 */ = {
+		58E02E9C280443D800CAA3FA /* LearningTask-6.4 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58E02EB1280443DA00CAA3FA /* Build configuration list for PBXNativeTarget "LearningTask-6.5" */;
+			buildConfigurationList = 58E02EB1280443DA00CAA3FA /* Build configuration list for PBXNativeTarget "LearningTask-6.4" */;
 			buildPhases = (
 				58E02E99280443D800CAA3FA /* Sources */,
 				58E02E9A280443D800CAA3FA /* Frameworks */,
@@ -82,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = "LearningTask-6.5";
+			name = "LearningTask-6.4";
 			productName = "LearningTask-6.5";
-			productReference = 58E02E9D280443D800CAA3FA /* LearningTask-6.5.app */;
+			productReference = 58E02E9D280443D800CAA3FA /* LearningTask-6.4.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +117,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 58E02E98280443D800CAA3FA /* Build configuration list for PBXProject "LearningTask-6.5" */;
+			buildConfigurationList = 58E02E98280443D800CAA3FA /* Build configuration list for PBXProject "LearningTask-6.4" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58E02E9C280443D800CAA3FA /* LearningTask-6.5 */,
+				58E02E9C280443D800CAA3FA /* LearningTask-6.4 */,
 			);
 		};
 /* End PBXProject section */
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58E02EA5280443D800CAA3FA /* ViewController.swift in Sources */,
+				587E8C8B280490E7002FD712 /* TipoDePokemonView.swift in Sources */,
+				587E8C84280464C4002FD712 /* Pokemon.swift in Sources */,
+				587E8C8728046BA1002FD712 /* PokemonStore.swift in Sources */,
+				587E8C8228046400002FD712 /* PokemonViewCell.swift in Sources */,
+				587E8C8928047D0D002FD712 /* PokemonsViewController.swift in Sources */,
 				58E02EA1280443D800CAA3FA /* AppDelegate.swift in Sources */,
 				58E02EA3280443D800CAA3FA /* SceneDelegate.swift in Sources */,
+				587E8C8D2805C41B002FD712 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +310,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "LearningTask-6.5/Info.plist";
+				INFOPLIST_FILE = "LearningTask-6.4/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "LearningTask-6.4";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -301,7 +322,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.zup.LearningTask-6-5";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.zup.LearningTask-6-4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,7 +338,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "LearningTask-6.5/Info.plist";
+				INFOPLIST_FILE = "LearningTask-6.4/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "LearningTask-6.4";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -328,7 +350,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.zup.LearningTask-6-5";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.zup.LearningTask-6-4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,7 +361,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58E02E98280443D800CAA3FA /* Build configuration list for PBXProject "LearningTask-6.5" */ = {
+		58E02E98280443D800CAA3FA /* Build configuration list for PBXProject "LearningTask-6.4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58E02EAF280443DA00CAA3FA /* Debug */,
@@ -348,7 +370,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58E02EB1280443DA00CAA3FA /* Build configuration list for PBXNativeTarget "LearningTask-6.5" */ = {
+		58E02EB1280443DA00CAA3FA /* Build configuration list for PBXNativeTarget "LearningTask-6.4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58E02EB2280443DA00CAA3FA /* Debug */,
