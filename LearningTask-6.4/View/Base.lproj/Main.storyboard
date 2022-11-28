@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="J6K-w7-uuq">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pokedex View Controller-->
+        <scene sceneID="Hf2-Qq-IqT">
+            <objects>
+                <tableViewController id="J6K-w7-uuq" customClass="PokedexViewController" customModule="LearningTask_6_4" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="8DJ-x5-RoL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="sectionIndexBackgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PokemonViewCell" id="e6R-9y-mvF" customClass="PokemonViewCell" customModule="LearningTask_6_4" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="50" width="414" height="168.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="e6R-9y-mvF" id="236-hj-aZf">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="168.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="E76-Y4-Ru5" userLabel="Principal Stack View">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="168.5"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="bR2-fi-rLs" userLabel="Info Stack View">
+                                                    <rect key="frame" x="20" y="24" width="230" height="120.5"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bulbasaur" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cUa-jQ-91o" userLabel="Nome Label">
+                                                            <rect key="frame" x="0.0" y="0.0" width="85" height="24"/>
+                                                            <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SCr-XF-6L0" customClass="TipoDePokemonView" customModule="LearningTask_6_4" customModuleProvider="target">
+                                                            <rect key="frame" x="0.0" y="24" width="230" height="79.5"/>
+                                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        </view>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="bnI-PZ-g3t" userLabel="Evolucao Stack View">
+                                                            <rect key="frame" x="0.0" y="103.5" width="120.5" height="17"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Evolui para:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFr-cI-s3M" userLabel="Descricao Label">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="72" height="17"/>
+                                                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ivysaur" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbY-tO-HTh" userLabel="Evolucao Label">
+                                                                    <rect key="frame" x="76" y="0.0" width="44.5" height="17"/>
+                                                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                </stackView>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="001" translatesAutoresizingMaskIntoConstraints="NO" id="OJW-X5-uLm" userLabel="Pokemon Image View">
+                                                    <rect key="frame" x="274" y="24" width="120" height="120.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="120" id="Hmb-1F-yzI"/>
+                                                        <constraint firstAttribute="width" constant="120" id="p9q-5b-5c3"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <directionalEdgeInsets key="directionalLayoutMargins" top="24" leading="20" bottom="24" trailing="20"/>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="E76-Y4-Ru5" secondAttribute="bottom" id="6xI-Ye-crj"/>
+                                        <constraint firstAttribute="trailing" secondItem="E76-Y4-Ru5" secondAttribute="trailing" id="8DI-KC-6t9"/>
+                                        <constraint firstItem="E76-Y4-Ru5" firstAttribute="leading" secondItem="236-hj-aZf" secondAttribute="leading" id="RE9-Sk-jA3"/>
+                                        <constraint firstItem="E76-Y4-Ru5" firstAttribute="top" secondItem="236-hj-aZf" secondAttribute="top" id="WEx-Gw-Jnq"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="evolucaoLabel" destination="qbY-tO-HTh" id="blF-OZ-ANd"/>
+                                    <outlet property="nomeLabel" destination="cUa-jQ-91o" id="9hh-br-OA4"/>
+                                    <outlet property="pokemonImageView" destination="OJW-X5-uLm" id="my0-ad-ETd"/>
+                                    <outlet property="tipoDePokemonView" destination="SCr-XF-6L0" id="ibG-r6-KBr"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="J6K-w7-uuq" id="n5w-gC-WGT"/>
+                            <outlet property="delegate" destination="J6K-w7-uuq" id="CCG-9G-RzI"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X17-e9-mzF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-455" y="-41"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="SCr-XF-6L0">
+            <size key="intrinsicContentSize" width="-1" height="24"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="001" width="475" height="475"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
